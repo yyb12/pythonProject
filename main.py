@@ -20,3 +20,5 @@ print("张马文是智障")
 
 print("yyb是507独裁官")
 print("yyb是507独裁官")
+print("yyb是507独裁官")
+print("yyb是507独裁官")
