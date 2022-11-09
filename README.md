@@ -29,7 +29,7 @@ IDE：Pycharm
 
 框架：Django
 
-版本号：数据库版本号（MySQl 8.0.15），python3.10，Django4.1.3，Anaconda 2.1.4，Tensorflow 2.9.1
+版本号：MySQl 8.0.15，python3.10，Django4.1.3，Anaconda 2.1.4，Tensorflow 2.9.1
 
 
 
@@ -63,4 +63,4 @@ IDE：Pycharm
     
                       put_special(用户选择过的参数) 无返回结果
                       
-•	前端设计 Django框架
+•	前端设计 Django框架 
