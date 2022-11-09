@@ -1,4 +1,4 @@
-class Users:#定义用户类
+﻿class Users:#定义用户类
     def __init__(self):
         Users.sex='LGBT'
         Users.jacket=[0,0,0,0,0]#用户上衣喜好度列表，依次为T恤。。。。。。
