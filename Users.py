@@ -21,10 +21,32 @@ class Users:#定义用户类
     def minuspants(self,index):#下衣服喜好度-1
         Users.pants[index]=Users.pants[index]-1
     def recommend(self):#根据属性推荐穿搭的方法
-        favorite_jacket=findMax(Users.jacket)#找到最喜爱的上衣类型
-        favorite_pants=findMax(Users.pants)#找到最喜欢的下衣类型
-        file=open('C:\\Users\\hua31\\Desktop\\softwarepractice\\repository507\\clothes\\example.jpg')
-        return file#返回推荐的图片
+        favorite_jacket=findMax(Users.jacket)#找到最喜爱的上衣类型,0为亮色长袖、1为暗色长袖、2为亮色短袖、3为暗色长袖
+        favorite_pants=findMax(Users.pants)#找到最喜欢的下衣类型，0为亮色长裤、1为暗色长裤、2为亮色短裤、3为暗色短裤
+        #根据最喜爱的上衣选择
+        if favorite_jacket==0:
+            file1=open('00//whitejacket.jpg')
+        elif favorite_jacket==1:
+            file1=open('01//blackjacket.jpg')
+        elif favorite_jacket==2:
+            file1=open('02//whitets.jpg')
+        else:
+            file1=open('03//blackts.jpg')
+            # 根据最喜爱的下衣选择
+            if favorite_pants == 0:
+                file2 = open('10//whitepant.jpg')
+            elif favorite_pants == 1:
+                file2 = open('11//blackpants.jpg')
+            elif favorite_pants == 2:
+                file2 = open('12//whiteshorts.jpg')
+            else:
+                file2 = open('13//blackshorts.jpg')
+        return [file1,file2]#返回推荐的上衣和下衣
+
+
+
+
+
 
 
 
