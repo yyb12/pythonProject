@@ -25,11 +25,11 @@
 
 IDE：Pycharm 
 
-平台：Windows10 专业版，github
+平台：Windows10 专业版，github，Windows 11家庭中文版
 
 框架：Django
 
-版本号：数据库版本号（Mysql 8.0.15），python3.10，Django4.1.3
+版本号：数据库版本号（Microsoft Sql Server 2012），python3.10，Django4.1.3
 
 
 
