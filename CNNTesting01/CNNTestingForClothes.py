@@ -117,4 +117,6 @@ for i in range(25):
                                 class_names[true_label]),
                color=color,
                fontproperties=zhfont)
+
+
 plt.show()
